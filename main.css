@@ -1,0 +1,156 @@
+div#translate{
+    width: 200px;
+    height: 200px;
+   border-radius: 15px; 
+    color:black;
+    background-color: blue;
+    padding: 10px;
+    transform: translate(100px, 50px);
+}
+
+
+div#rotate{
+    margin-top: 100px;
+    width: 200px;
+    height: 200px;
+   border-radius: 15px; 
+    color:black;
+    background-color: blue;
+    padding: 10px;
+    transform: rotate(180deg);
+}
+
+div#scale{
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+   border-radius: 15px; 
+    color:black;
+    background-color: blue;
+    padding: 10px;
+    transform: scale(2, 2);
+}
+
+div#scaleX{
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+   border-radius: 15px; 
+    color:black;
+    background-color: blue;
+    padding: 10px;
+    transform: scaleX(3);
+}
+
+div#scaleY{
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+   border-radius: 15px; 
+    color:black;
+    background-color: blue;
+    padding: 10px;
+    transform: scaleY(3);
+}
+
+div#skewX{
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+   border-radius: 15px; 
+    color:black;
+    background-color: blue;
+    padding: 10px;
+    transform: skewX(-40deg);
+}
+
+div#skewY{
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+   border-radius: 15px; 
+    color:black;
+    background-color: blue;
+    padding: 10px;
+    transform: skewY(40deg);
+}
+
+div#rotateX{
+    margin-top:10px;
+    width: 200px;
+    height: 200px;
+   border-radius: 15px; 
+    color:black;
+    background-color: blue;
+    padding: 10px;
+    transform: rotateX(130deg);
+}
+
+
+div#rotateZ{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+   border-radius: 15px; 
+    color:black;
+    background-color: blue;
+    padding: 10px;
+    transform: rotateZ(130deg);
+}
+
+div#example1{
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: background-color 3s, border-radius 3s;
+    transition-timing-function: ease-in-out ;
+   transition-delay: 4s;
+}
+
+#example1:hover{
+    background-color: brown;
+    border-radius: 50%;
+}
+#soulmaniplulator img{
+    transform: scale(1);
+    transition: .3s ease-in-out;
+}
+
+#soulmaniplulator:hover img{
+    transform: scale(1.3);
+ 
+}
+
+#speddsters img{
+   margin-top: 0px;
+    transition: .3s ease-in-out;
+}
+
+#speedsters:hover img{
+  margin-left: 100px;
+}
+
+#hipsters img{
+    filter: blur(3px);
+    transition: .3s ease-in-out;
+ }
+ 
+ #hipsters:hover img{
+   filter: blur(0px);
+ }
+
+ #engineers img{
+    filter: greyscale(100%);
+    transition: .3s ease-in-out;
+ }
+
+ #engineers:hover img{
+    filter: greyscale(0);
+    
+ }
+
